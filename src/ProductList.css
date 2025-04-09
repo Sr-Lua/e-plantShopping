@@ -39,6 +39,13 @@ body {
    
 }
 
+.cart-quantity {
+    display: flex;
+    justify-self: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -169,7 +176,7 @@ body {
     /* background-color: red; */
     margin-left: 27px;
     position: absolute;
-    font-size: 29px;
+    font-size: 1.5rem;
 
 }
 .plantname_heading{
@@ -179,7 +186,6 @@ body {
     /* background-color: yellow; */
 }
 .plant_heading{
-    width: 400px;
     text-align: center;
     margin: 20px;
     border: 1px solid rgb(5, 4, 4);
